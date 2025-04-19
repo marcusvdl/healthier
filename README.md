@@ -12,7 +12,7 @@ Discover targets with the greatest potential to significantly delay, interrupt o
 
 ## 01-raw_data
 
-Multi-omics: genomics, transcriptomics, epigenomics, proteomics, lipidomics, metabolomics
+Multi-omics: genomics, transcriptomics, epigenomics/methylomics, proteomics, lipidomics, metabolomics
 Multi-tissues
 Multi-organisms (compare evolutionary pathways): humans, primates, mice, axolotls, C. elegans, zebrafish
 Developmental/longitudinal phases: fertilization, zygote, cleavage, morula, blastula (blastocyst), gastrulation, neurula, embryo (embryonic period: up to 8 weeks), fetus (fetal period: from the 9th week until birth), newborn (neonatal), infant (baby), childhood, pre-adolescence, adolescence, youth, young adult, middle age, elderly (third age), senescence
@@ -59,11 +59,20 @@ Public datasets:
 
 ------------------------------------------------
 
-## 02-data_processed_etl
+## 02-etl_data_processed
+
+See healthier_v1.ipynb
 
 ------------------------------------------------
 
 ## 03-data_analysis
+
+Scanpy / AnnData para dados de célula única;
+MOFA+ para integrar multi-ômicas;
+Monocle3 para trajetórias de diferenciação celular;
+Deep Learning frameworks (ex: PyTorch, TensorFlow) para modelagem;
+Bioinfokit, GSEApy, Lifelines para estatísticas e análise funcional;
+Jupyter Notebook / Colab para organização e execução;
 
 integração_multi_ômica
 - considerar efeito cumulativo de coisas que podem ser menos expressas no velho mas que já se acumularam no organismo ao longo dos anos
@@ -76,6 +85,15 @@ death rate by age como output ruim
 envelhecimento x rejuvenescimento
 
 MODELING:
+
+DNNs
+Network neighbors
+Causal inference
+Causal graphs
+Over/UnderExpression
+Knockouts
+Interactome
+Relevance/Impact
 Ordinary differential equation model
 Constraint-based model
 Petri net
@@ -114,7 +132,7 @@ Análise de pseudotempo
 
 ## 04-visualization_evaluation_feedback
 
-interativas, dashboard, plots, redes, relatórios
+interativas, dashboard, plots, redes, relatórios, share on bioRxiv
 
 -----------------------------------------------
 
@@ -124,11 +142,15 @@ alvos prioritários
 
 -----------------------------------------------
 
-## 07-validation_development
+## 07-test_validation_development
 
 Buscar validação funcional ou ligantes disponíveis (OpenTargets, DrugBank)
 drug_targets_OpenTargets
 resultados_experimentos
 papers_key
 resultados_chave
+
+-----------------------------------------------
+
+## 07-share_publish
 
