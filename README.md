@@ -20,7 +20,7 @@ Aging: chronological, biological (e.g. epigenetic), functional (tissue decline)
 Rejuvenation experiments: epigenetic reprogramming ((c)iPSC, OSK, epigenetic partial reprogramming), fasting, marrow transplant, exercise, metformin, plasma, etc
 Another anti-aging interventions
 
-Public datasets:
+Database | Dataset | Description | Category
 
 🧬 Multi-omics e Multi-tissues
 - Aging Atlas: Curated database comprising transcriptomics, single-cell transcriptomics, epigenomics, proteomics, and pharmacogenomics data related to aging across multiple species and tissues.
@@ -35,6 +35,9 @@ Public datasets:
 - Roadmap Epigenomics: Epigenomic profiles (e.g., DNA methylation, histone modifications) across many human tissues and cell types.
 - Single Cell Portal by Broad Institute: Collection of curated single-cell datasets, including those on aging and disease.
 - Aging Fly Cell Atlas (AFCA): Single-cell atlas of aging Drosophila tissues, enabling cross-species comparison.
+- OpenGenes: Open repository of genes and interventions related to aging.
+- CZI Cellxgene Census: Portal de transcriptomas de célula única com interface e API.
+- gnomAD: Frequências de variantes genéticas humanas.
 
 ⏳ Longitudinal Data and Biological Age
 - Multi-Omics Longitudinal Aging Dataset in Primary Human Fibroblasts: Longitudinal multi-omics dataset of cultured primary human fibroblasts measured across their replicative lifespans, including data from individuals with mitochondrial disease.
@@ -59,13 +62,13 @@ Public datasets:
 
 ------------------------------------------------
 
-## 02-etl_data_processed
+## 02-downloading_parsing_and_unifying_data
 
 See healthier_v1.ipynb
 
 ------------------------------------------------
 
-## 03-data_analysis
+## 03-preprocessing_and_data_analysis
 
 Scanpy / AnnData para dados de célula única;
 MOFA+ para integrar multi-ômicas;
@@ -83,6 +86,7 @@ integração_multi_ômica
 - considerar a chance de doenças por idade como output ruim (exemplo cancer aumenta exponencialmente, demência aumenta e no final diminui um pouco)
 death rate by age como output ruim
 envelhecimento x rejuvenescimento
+idade relativa à expectativa de vida
 
 MODELING:
 
