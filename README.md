@@ -6,59 +6,21 @@ Target Discovery for Anti-aging Interventions
 
 ## 00-objective
 
-Discover targets with the greatest potential to significantly delay, interrupt or reverse human biological aging phenotypes, using (i) multi-omics, multi-tissues and multi-organisms data, (ii) chronological, biological, functional and longitudinal analysis and (iii) comparisons with experiments data (rejuvenation, e.g. partial reprogramming, iPSC; known anti-aging interventions).
+Discover targets with the greatest potential to significantly delay, interrupt or reverse human biological aging phenotypes, using (i) multi-omics, multi-tissues and multi-species data, (ii) longitudinal analysis of chronological, biological and functional aging and (iii) comparisons with experiments data (rejuvenation, e.g. partial reprogramming, iPSC; known anti-aging interventions).
 
 ------------------------------------------------
 
 ## 01-raw_data
 
-Multi-omics: genomics, transcriptomics, epigenomics/methylomics, proteomics, lipidomics, metabolomics
+Multi-omics: genomics, transcriptomics, epigenomics/methylomics, proteomics, lipidomics, metabolomics, etc
 Multi-tissues
-Multi-organisms (compare evolutionary pathways): humans, primates, mice, axolotls, C. elegans, zebrafish
+Multi-species (to learn from evolutionary pathways): humans, primates, mice, axolotls, C. elegans, zebrafish
 Developmental/longitudinal phases: fertilization, zygote, cleavage, morula, blastula (blastocyst), gastrulation, neurula, embryo (embryonic period: up to 8 weeks), fetus (fetal period: from the 9th week until birth), newborn (neonatal), infant (baby), childhood, pre-adolescence, adolescence, youth, young adult, middle age, elderly (third age), senescence
 Aging: chronological, biological (e.g. epigenetic), functional (tissue decline)
 Rejuvenation experiments: epigenetic reprogramming ((c)iPSC, OSK, epigenetic partial reprogramming), fasting, marrow transplant, exercise, metformin, plasma, etc
 Another anti-aging interventions
 
-Database | Dataset | Description | Category
-
-🧬 Multi-omics e Multi-tissues
-- Aging Atlas: Curated database comprising transcriptomics, single-cell transcriptomics, epigenomics, proteomics, and pharmacogenomics data related to aging across multiple species and tissues.
-- HALL (Human Aging and Longevity Landscape): Comprehensive resource integrating phenomics, genomics, transcriptomics, proteomics, metabolomics, and microbiomics data to study human aging and longevity.
-- AgeAnnoMO: Knowledgebase annotating aging-related genes, proteins, metabolites, mitochondrial genes, microbiotas, and age-specific TCR and BCR sequences across 50 species.
-- Immunosenescence Inventory: Database integrating multi-omics data on immune aging, including single-cell and bulk transcriptomics, epigenomics, and TCR/BCR analyses across species.
-- GTEx (Genotype-Tissue Expression Project): A comprehensive atlas of gene expression in multiple human tissues, with metadata on age, sex and other variables.
-- Tabula Muris: Atlas of gene expression in mice, covering different tissues and age groups, useful for comparative studies on aging.
-- Tabula Sapiens: Human version of Tabula Muris, providing single-cell transcriptome data by cell types, still expanding.
-- ENCODE Project: Repository of functional genome data, including RNA-seq, ATAC-seq, methylation and other epigenetic marks in humans and mice.
-- Human Cell Atlas (HCA): High-resolution single-cell transcriptomic profiles across tissues, stages, and donors.
-- Roadmap Epigenomics: Epigenomic profiles (e.g., DNA methylation, histone modifications) across many human tissues and cell types.
-- Single Cell Portal by Broad Institute: Collection of curated single-cell datasets, including those on aging and disease.
-- Aging Fly Cell Atlas (AFCA): Single-cell atlas of aging Drosophila tissues, enabling cross-species comparison.
-- OpenGenes: Open repository of genes and interventions related to aging.
-- CZI Cellxgene Census: Portal de transcriptomas de célula única com interface e API.
-- gnomAD: Frequências de variantes genéticas humanas.
-
-⏳ Longitudinal Data and Biological Age
-- Multi-Omics Longitudinal Aging Dataset in Primary Human Fibroblasts: Longitudinal multi-omics dataset of cultured primary human fibroblasts measured across their replicative lifespans, including data from individuals with mitochondrial disease.
-- Allen Brain Atlas / BrainSpan: Spatial and temporal brain transcriptomics across development.
-- ClockBase: Platform featuring biological age estimates based on multiple aging clock models applied to over 2,000 DNA methylation datasets and nearly 200,000 samples.
-- Multi-organ and Multi-omics Aging Clocks: Framework integrating multi-organ and multi-omics biological aging clocks to digitize human biological age and improve disease prediction.
-- Framingham Heart Study: Longitudinal study initiated in 1948, providing clinical and genetic data on cardiovascular risk factors over time.
-- ROSMAP (Religious Orders Study and Memory and Aging Project): Data set that includes clinical, genomic and transcriptomic information from elderly individuals, focused on neurodegenerative diseases.
-- GEO Time Series (GSEs with timepoints): Thousands of longitudinal omics studies in NCBI GEO with explicit timepoints and intervention metadata.
-- LifeTime Initiative Datasets: Focuses on cell states and transitions over time, using single-cell multi-omics and organoid data.
-- Mammalian Aging Cell Atlas (MACA): Multi-tissue single-cell transcriptomic atlas of mouse aging across time points.
-- SenNet Consortium: Focuses on profiling senescent cells using multi-omics technologies in aging tissues.
-
-🔬 Rejuvenation and Anti-aging Interventions
-- Cell Rejuvenation Atlas (SINGULAR): Atlas providing a unified analysis framework to study the effects of rejuvenation strategies at the single-cell level, identifying master regulators and common targets.
-- GEO Dataset GSE201338: Dataset exploring combination therapy of stem cell replacement and senescent cell removal, showing synergistic potential for anti-aging treatments.
-- Multi-Omics Analysis of TPE-IVIG Treatment: Study demonstrating that TPE-IVIG treatment induces coordinated cellular and molecular responses, reversing age-related immune decline.
-- Rejuvenation Roadmap: Collection of studies and datasets related to rejuvenation strategies, including cellular reprogramming and emerging therapies.
-- iPSC Datasets: Datasets on induced pluripotent stem cells, useful for studying the effects of cell reprogramming on aging.
-- Drug–Gene Interaction Database (DGIdb): aggregates genes or gene products, drugs and drug-gene interaction records.
-- DrugBank: comprehensive drug data, structured for immediate use.
+See Datasets.xlsx
 
 ------------------------------------------------
 
